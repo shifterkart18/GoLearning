@@ -27,7 +27,7 @@ func main() {
 
 func MultiplyBy321(val int) int {
 
-	result := val * 321
+	result := val * 321.0
 	return result
 }
 
