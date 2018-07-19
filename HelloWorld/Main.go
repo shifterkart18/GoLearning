@@ -7,9 +7,9 @@ import (
 	"time"
 )
 
-const Name = "Andrew Martz"
+const Name string = "Andrew Martz"
 
-var int Number = 18
+var Number int32 = 18
 
 func main() {
 

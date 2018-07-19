@@ -1,16 +1,14 @@
-package Mult321
+package main
 
 import "fmt"
 
 //MultiplyBy321 multiply a number by 321
 func MultiplyBy321(val int) int {
-
 	return val<<8 + val<<6 + val
 }
 
 //Test321 test Multiply321
 func Test321(Start int, End int) {
-
 	bSuccess := true
 	for i := Start; i < End; i++ {
 		NormalVal := i * 321
