@@ -1,6 +1,7 @@
 package main
 
 import (
+	"GoLearning/myutil"
 	"fmt"
 	"math"
 	"runtime"
@@ -28,6 +29,11 @@ func main() {
 	FizzBuzz(30)
 
 	Test321(-100, 100)
+
+	MyName := "Andrew Martz"
+	fmt.Printf("the reverse of %v is %v", MyName, blah.ReverseLetters(MyName))
+
+	//"First Second Third"
 }
 
 func PrintOS() {
